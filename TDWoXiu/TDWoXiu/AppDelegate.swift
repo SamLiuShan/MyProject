@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Demo001
+//  TDWoXiu
 //
-//  Created by o2ounion on 15/6/10.
+//  Created by o2ounion on 15/6/11.
 //  Copyright (c) 2015年 o2ounion. All rights reserved.
 //
 
@@ -16,15 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
-//        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-//
-//        let tdTabBar = TDTabBarController()
-//        
-//        self.window!.rootViewController = tdTabBar;
-//        
-//        self.window!.makeKeyWindow()
-
         return true
     }
 
