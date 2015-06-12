@@ -16,6 +16,45 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let vc1 :UIViewController = LiveViewController()
+        let nav1 :UINavigationController = UINavigationController(rootViewController: vc1)
+        
+        let image1 = UIImage(named: "tab_bar_recommend_normal")
+        let image1Sel = UIImage(named: "tab_bar_recommend_actived")
+        nav1.tabBarItem = UITabBarItem(title: "直播", image: image1, selectedImage: image1Sel)
+        
+        let vc2 :UIViewController = PrivatePhotosViewController()
+        let nav2 :UINavigationController = UINavigationController(rootViewController: vc2)
+        let image2 = UIImage(named: "tab_bar_dynamic_normal")
+        let image2Sel = UIImage(named: "tab_bar_dynamic_actived")
+        nav2.tabBarItem = UITabBarItem(title: "私房照", image: image2, selectedImage: image2Sel)
+        
+        let vc3 :UIViewController = ChatViewController()
+        let nav3 :UINavigationController = UINavigationController(rootViewController: vc3)
+        let image3 = UIImage(named: "tab_bar_star_normal")
+        let image3Sel = UIImage(named: "tab_bar_star_actived")
+        
+        nav3.tabBarItem = UITabBarItem(title: "聊天", image: image3, selectedImage: image3Sel)
+        
+        let vc4 :UIViewController = MineViewController()
+        let nav4 :UINavigationController = UINavigationController(rootViewController: vc4)
+        let image4 = UIImage(named: "tab_bar_mine_normal")
+        let image4Sel = UIImage(named: "tab_bar_mine_actived")
+        
+        nav4.tabBarItem = UITabBarItem(title: "我的", image: image4, selectedImage: image4Sel)
+
+        
+        let arr = [nav1,nav2,nav3,nav4]
+        
+        let tabBar = UITabBarController()
+        tabBar.tabBar.tintColor = UIColor(red: 236/255, green: 3/255, blue: 104/255, alpha: 1)
+        
+        tabBar.viewControllers = arr
+        
+        self.window!.rootViewController = tabBar;
+
+        
         return true
     }
 

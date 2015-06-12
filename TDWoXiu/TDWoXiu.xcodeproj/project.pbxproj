@@ -13,14 +13,12 @@
 		9499E2671B295B3900E88BFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9499E2661B295B3900E88BFC /* Images.xcassets */; };
 		9499E26A1B295B3900E88BFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9499E2681B295B3900E88BFC /* LaunchScreen.xib */; };
 		9499E2761B295B3A00E88BFC /* TDWoXiuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499E2751B295B3A00E88BFC /* TDWoXiuTests.swift */; };
-		9499E2931B295D1D00E88BFC /* TDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499E2921B295D1D00E88BFC /* TDTabBarController.swift */; };
 		9499E2951B295D9200E88BFC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499E2941B295D9200E88BFC /* BaseViewController.swift */; };
 		9499E2971B295DCD00E88BFC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499E2961B295DCD00E88BFC /* ChatViewController.swift */; };
 		9499E2991B295DE000E88BFC /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499E2981B295DE000E88BFC /* LiveViewController.swift */; };
 		9499E29B1B295DEC00E88BFC /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499E29A1B295DEC00E88BFC /* MineViewController.swift */; };
 		9499E29D1B295E0100E88BFC /* PrivatePhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499E29C1B295E0100E88BFC /* PrivatePhotosViewController.swift */; };
 		9499E29F1B29899F00E88BFC /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499E29E1B29899F00E88BFC /* TestViewController.swift */; };
-		9499E2A11B298AC400E88BFC /* TDNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499E2A01B298AC400E88BFC /* TDNavController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +42,12 @@
 		9499E26F1B295B3A00E88BFC /* TDWoXiuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDWoXiuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9499E2741B295B3A00E88BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9499E2751B295B3A00E88BFC /* TDWoXiuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDWoXiuTests.swift; sourceTree = "<group>"; };
-		9499E2921B295D1D00E88BFC /* TDTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDTabBarController.swift; sourceTree = "<group>"; };
 		9499E2941B295D9200E88BFC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		9499E2961B295DCD00E88BFC /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		9499E2981B295DE000E88BFC /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		9499E29A1B295DEC00E88BFC /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		9499E29C1B295E0100E88BFC /* PrivatePhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivatePhotosViewController.swift; sourceTree = "<group>"; };
 		9499E29E1B29899F00E88BFC /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		9499E2A01B298AC400E88BFC /* TDNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDNavController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,9 +206,7 @@
 		9499E2881B295CA900E88BFC /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				9499E2921B295D1D00E88BFC /* TDTabBarController.swift */,
 				9499E2941B295D9200E88BFC /* BaseViewController.swift */,
-				9499E2A01B298AC400E88BFC /* TDNavController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -388,10 +382,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9499E2931B295D1D00E88BFC /* TDTabBarController.swift in Sources */,
 				9499E29D1B295E0100E88BFC /* PrivatePhotosViewController.swift in Sources */,
 				9499E2951B295D9200E88BFC /* BaseViewController.swift in Sources */,
-				9499E2A11B298AC400E88BFC /* TDNavController.swift in Sources */,
 				9499E2621B295B3900E88BFC /* ViewController.swift in Sources */,
 				9499E29B1B295DEC00E88BFC /* MineViewController.swift in Sources */,
 				9499E2971B295DCD00E88BFC /* ChatViewController.swift in Sources */,
@@ -593,6 +585,7 @@
 				9499E27B1B295B3A00E88BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9499E27C1B295B3A00E88BFC /* Build configuration list for PBXNativeTarget "TDWoXiuTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +594,7 @@
 				9499E27E1B295B3A00E88BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
